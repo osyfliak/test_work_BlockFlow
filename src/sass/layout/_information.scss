@@ -1,0 +1,13 @@
+.information{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    &__title{
+        margin-bottom: 23px;
+        color: $main_color;
+    }
+    &__text-data{
+        display: block;
+       
+    }
+}

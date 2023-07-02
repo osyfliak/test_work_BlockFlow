@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "posthtml-include": "^1.7.4"
+  },
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /test_work_BlockFlow/"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}
